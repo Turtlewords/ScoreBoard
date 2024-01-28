@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "digital";
+    src: url(CursedTimerUlil-Aznm.ttf)
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("caruso.webp");
+    background-size: cover;
+    margin: 0;
+
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    gap: 150px;
+}
+
+.home {
+    text-align: center;
+    width: 300px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-board {
+    background-color: black;
+    height: 125px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+
+#home-score {
+    font-family: "digital";
+    color: red;
+    font-size: 100px;
+    margin: 0;
+}
+
+.guest {
+    text-align: center;
+    width: 300px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guest-board {
+    background-color: black;
+    height: 125px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#guest-score {
+    font-family: "digital";
+    color: red;
+    font-size: 100px;
+}
+
+button {
+    background-color: #0C4A6E;
+    color: #BAE6FD;
+    border: 3px solid #BAE6FD;
+    padding: 10px;
+    margin: 20px 5px 0px 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-game {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 10vh;
+}
+
+.gameInfo {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 24px;
+    text-shadow: 0 0 1px black;
+}
+
+.period, .fouls, .timer {
+    color: white;
+    width: 200px;
+    text-align: center;
+    
+    
+
+}
+
+#period-text, #foul-text, #timer-text {
+    font-size: 24px;
+}
+
+.btn2 {
+    margin-top: 0;
+}
+
